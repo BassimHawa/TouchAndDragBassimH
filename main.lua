@@ -8,7 +8,7 @@
 display.setStatusBar(display.HiddenStatusBar)
 
 --sound
-local correctSound = audio.loadSound("Rockstar Clean.mp3")
+local correctSound = audio.loadSound("Sounds/Rockstar Clean.mp3")
 local correctSoundChannel
 correctSoundChannel = audio.play(correctSound)
 
