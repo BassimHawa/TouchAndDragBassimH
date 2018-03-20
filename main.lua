@@ -7,6 +7,11 @@
 --hide the status bar
 display.setStatusBar(display.HiddenStatusBar)
 
+--sound
+local correctSound = audio.loadSound("Rockstar Clean.mp3")
+local correctSoundChannel
+correctSoundChannel = audio.play(correctSound)
+
 --local variables. I am still trying to get the x-value to be set properly
 local backgroundImage = display.newImageRect("images/space.jpg", 2048, 1536)
 local girl1 = display.newImageRect("Images/girl1.png", 150, 150)
